@@ -1,0 +1,19 @@
+@keyframes rotate3d-814fa091 {
+  0% {
+    transform: perspective(400px) rotate(0) scale(var(--scale));
+  }
+  to {
+    transform: perspective(400px) rotate(360deg) scale(var(--scale));
+  }
+}
+.coin-animation[data-v-814fa091] {
+  --scale: 1;
+  transform-style: preserve-3d;
+  animation: rotate3d-814fa091 20s linear infinite;
+  filter: drop-shadow(0 0 10px #eddc5d);
+}
+.coin-animation[data-v-814fa091]:hover {
+  animation: rotate3d-814fa091 2s linear infinite;
+  filter: drop-shadow(0 0 30px #eddc5ec6);
+  --scale: 1.2;
+}

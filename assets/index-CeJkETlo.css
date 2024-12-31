@@ -1,0 +1,90 @@
+.fedml-lock-page[data-v-d2f17f5c] {
+  z-index: 3000;
+}
+.fedml-lock-page__unlock[data-v-d2f17f5c] {
+  transform: translate(-50%);
+}
+.fedml-lock-page__hour[data-v-d2f17f5c],
+.fedml-lock-page__minute[data-v-d2f17f5c] {
+  display: flex;
+  font-weight: 700;
+  color: #bababa;
+  background-color: #141313;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 160px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 160px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 220px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 260px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .fedml-lock-page__hour span[data-v-d2f17f5c]:not(.meridiem),
+  .fedml-lock-page__minute span[data-v-d2f17f5c]:not(.meridiem) {
+    font-size: 320px;
+  }
+}
+.fedml-lock-page-entry[data-v-d2f17f5c] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  justify-content: center;
+  align-items: center;
+}
+.fedml-lock-page-entry-content[data-v-d2f17f5c] {
+  width: 260px;
+}
+.fedml-lock-page-entry__header[data-v-d2f17f5c] {
+  text-align: center;
+}
+.fedml-lock-page-entry__header-img[data-v-d2f17f5c] {
+  width: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.fedml-lock-page-entry__header-name[data-v-d2f17f5c] {
+  margin-top: 5px;
+  font-weight: 500;
+  color: #bababa;
+}
+.fedml-lock-page-entry__err-msg[data-v-d2f17f5c] {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff4d4f;
+}
+.fedml-lock-page-entry__footer[data-v-d2f17f5c] {
+  display: flex;
+  justify-content: space-between;
+}

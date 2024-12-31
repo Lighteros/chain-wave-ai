@@ -1,0 +1,11 @@
+.date[data-v-a9640de0] {
+  margin-right: 0;
+  margin-left: auto;
+}
+.truncate-lines[data-v-a9640de0] {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

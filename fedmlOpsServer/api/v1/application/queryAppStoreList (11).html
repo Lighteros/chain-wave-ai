@@ -1,0 +1,453 @@
+{"message":"Succeeded to process
+request","code":"SUCCESS","data":{"total":6,"totalPage":1,"pageNum":1,"pageSize":16,"data":[{"id":941,"versionId":5023,"owner":"xai-org","applicationName":"grok-1","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/1711072639331130314967.png","description":"grok-1","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":15,"views":1287,"requests":"0","sort":null,"version":"v9-Fri
+Apr 19 18:26:00 GMT 2024","tags":["Text
+Generation"],"playground":false,"createTime":"2024-04-19T18:26:04","updateBy":"xai-org","updateTime":"2024-04-19T18:26:38"},{"id":1228,"versionId":5447,"owner":"tensoropera","applicationName":"Fox-1-1_6B-Instruct-v0_1","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/1719305546520fox%20logo%20%281%29.jpg","description":"##
+Model Card for Fox-1-1.6B-Instruct\n\n> [!IMPORTANT]\n> This model is an
+instruction tuned model which requires alignment before it can be used in
+production. We will release the\n> chat version soon.\n\nFox-1 is a decoder-only
+transformer-based small language model (SLM) with 1.6B total parameters
+developed\nby [TensorOpera AI](https://tensoropera.ai/). The model was trained
+with a 3-stage data curriculum on 3 trillion tokens\nof text and code data in 8K
+sequence length. Fox-1 uses grouped query attention (GQA) with 4 KV heads and 16
+attention\nheads and has a deeper architecture than other SLMs.\n\nFor the full
+details of this model please read\nour [release blog
+post](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants).\n\n##
+Benchmarks\n\nWe evaluated Fox-1 on ARC Challenge (25-shot), HellaSwag
+(10-shot), TruthfulQA (0-shot), MMLU (5-shot),\nWinogrande (5-shot), and GSM8k
+(5-shot). We follow the Open LLM Leaderboard's evaluation setup and report the
+average\nscore of the 6 benchmarks. The model was evaluated on a machine with
+8*H100 GPUs.\n\n| | Fox-1-1.6B-Instruct-v0.1 | Qwen1.5-1.8B-Chat | Gemma-2B-It |
+OpenELM-1.1B-Instruct
+|\n|---------------|--------------------------|-------------------|-------------|-----------------------|\n|
+GSM8k | 39.20% | 18.20% | 4.47% | 0.91% |\n| MMLU | 44.99% | 45.77% | 37.70% |
+25.70% |\n| ARC Challenge | 43.60% | 38.99% | 43.34% | 40.36% |\n| HellaSwag |
+63.39% | 60.31% | 62.72% | 71.67% |\n| TruthfulQA | 44.12% | 40.57% | 45.86% |
+45.96% |\n| Winogrande | 62.67% | 59.51% | 61.33% | 61.96% |\n| Average | 49.66%
+| 43.89% | 42.57% | 41.09%
+|","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":3,"views":494,"requests":"114","sort":null,"version":"v0-Tue
+Jun 25 08:52:58 GMT 2024","tags":["Text
+Generation"],"playground":false,"createTime":"2024-06-25T08:53:05","updateBy":"tensoropera","updateTime":"2024-06-25T08:53:09"},{"id":1291,"versionId":5497,"owner":"meta","applicationName":"Meta-Llama-3.1-405B","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/17222796382491722022898889llama.png","description":"##
+Model Information\n\nThe Meta Llama 3.1 collection of multilingual large
+language models (LLMs) is a collection of pretrained and instruction tuned
+generative models in 8B, 70B and 405B sizes (text in/text out). The Llama 3.1
+instruction tuned text only models (8B, 70B, 405B) are optimized for
+multilingual dialogue use cases and outperform many of the available open source
+and closed chat models on common industry benchmarks.\n\n**Model developer**:
+Meta\n\n**Model Architecture:** Llama 3.1 is an auto-regressive language model
+that uses an optimized transformer architecture. The tuned versions use
+supervised fine-tuning (SFT) and reinforcement learning with human feedback
+(RLHF) to align with human preferences for helpfulness and safety.** **\n\n\n| |
+**Training Data** | **Params** | **Input modalities** | **Output modalities** |
+**Context length** | **GQA** | **Token count** | **Knowledge cutoff** |\n|
+--------------------- | -------------------------------------------- |
+-------------------------- | -------------------- | -------------------------- |
+------------------ | ------- | --------------- | -------------------- |\n| Llama
+3.1 (text only) | A new mix of publicly available online data. | 8B |
+Multilingual Text | Multilingual Text and code | 128k | Yes | 15T+ | December
+2023 |\n| 70B | Multilingual Text | Multilingual Text and code | 128k | Yes | |
+| | |\n| 405B | Multilingual Text | Multilingual Text and code | 128k | Yes | |
+| | |\n\n**Supported languages:** English, German, French, Italian, Portuguese,
+Hindi, Spanish, and Thai.\n\n**Llama 3.1 family of models**. Token counts refer
+to pretraining data only. All model versions use Grouped-Query Attention (GQA)
+for improved inference scalability.\n\n**Model Release Date:** July 23,
+2024.\n\n**Status:** This is a static model trained on an offline dataset.
+Future versions of the tuned models will be released as we improve model safety
+with community feedback.\n\n**License:** A custom commercial license, the Llama
+3.1 Community License, is available at:**
+**[https://github.com/meta-llama/llama-models/blob/main/models/llama3\\_1/LICENSE](https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE)\n\nWhere
+to send questions or comments about the model Instructions on how to provide
+feedback or comments on the model can be found in the model**
+**[README](https://github.com/meta-llama/llama3). For more technical information
+about generation parameters and recipes for how to use Llama 3.1 in
+applications, please go**
+**[here](https://github.com/meta-llama/llama-recipes).** **\n\n## Intended
+Use\n\n**Intended Use Cases** Llama 3.1 is intended for commercial and research
+use in multiple languages. Instruction tuned text only models are intended for
+assistant-like chat, whereas pretrained models can be adapted for a variety of
+natural language generation tasks. The Llama 3.1 model collection also supports
+the ability to leverage the outputs of its models to improve other models
+including synthetic data generation and distillation. The Llama 3.1 Community
+License allows for these use cases.** **\n\n**Out-of-scope** Use in any manner
+that violates applicable laws or regulations (including trade compliance laws).
+Use in any other way that is prohibited by the Acceptable Use Policy and Llama
+3.1 Community License. Use in languages beyond those explicitly referenced as
+supported in this model card\\*\\*.\n\n\\*\\*Note: Llama 3.1 has been trained on
+a broader collection of languages than the 8 supported languages. Developers may
+fine-tune Llama 3.1 models for languages beyond the 8 supported languages
+provided they comply with the Llama 3.1 Community License and the Acceptable Use
+Policy and in such cases are responsible for ensuring that any uses of Llama 3.1
+in additional languages is done in a safe and responsible manner.\n\n## Hardware
+and Software\n\n**Training Factors** We used custom training libraries, Meta's
+custom built GPU cluster, and production infrastructure for pretraining.
+Fine-tuning, annotation, and evaluation were also performed on production
+infrastructure.\n\n**Training utilized a cumulative of** 39.3M GPU hours of
+computation on H100-80GB (TDP of 700W) type hardware, per the table below.
+Training time is the total GPU time required for training each model and power
+consumption is the peak power capacity per GPU device used, adjusted for power
+usage efficiency.** **\n\n**Training Greenhouse Gas Emissions** Estimated total
+location-based greenhouse gas emissions were** ****11,390** tons CO2eq for
+training. Since 2020, Meta has maintained net zero greenhouse gas emissions in
+its global operations and matched 100% of its electricity use with renewable
+energy, therefore the total market-based greenhouse gas emissions for training
+were 0 tons CO2eq.\n\n\n| | **Training Time (GPU hours)** | **Training Power
+Consumption (W)** | **Training Location-Based Greenhouse Gas Emissions****(tons
+CO2eq)** | **Training Market-Based Greenhouse Gas Emissions****(tons CO2eq)**
+|\n| -------------- | ----------------------------- |
+---------------------------------- |
+-------------------------------------------------------------------- |
+------------------------------------------------------------------ |\n| Llama
+3.1 8B | 1.46M | 700 | 420 | 0 |\n| Llama 3.1 70B | 7.0M | 700 | 2,040 | 0 |\n|
+Llama 3.1 405B | 30.84M | 700 | 8,930 | 0 |\n| Total | 39.3M | | 11,390 | 0
+|\n\nThe methodology used to determine training energy use and greenhouse gas
+emissions can be found** **[here](https://arxiv.org/pdf/2204.05149). Since Meta
+is openly releasing these models, the training energy use and greenhouse gas
+emissions will not be incurred by others.\n\n## Training Data\n\n**Overview:**
+Llama 3.1 was pretrained on \\~15 trillion tokens of data from publicly
+available sources. The fine-tuning data includes publicly available instruction
+datasets, as well as over 25M synthetically generated examples.** **\n\n**Data
+Freshness:** The pretraining data has a cutoff of December 2023.\n\n## Benchmark
+scores\n\nIn this section, we report the results for Llama 3.1 models on
+standard automatic benchmarks. For all the evaluations, we use our internal
+evaluations library.** **\n\n### Base pretrained models\n\n\n| **Category** |
+**Benchmark** | **# Shots** | **Metric** | **Llama 3 8B** | **Llama 3.1 8B** |
+**Llama 3 70B** | **Llama 3.1 70B** | **Llama 3.1 405B** |\n|
+--------------------- | ------------- | -------------------- |
+-------------------- | -------------- | ---------------- | --------------- |
+----------------- | ------------------ |\n| General | MMLU | 5 |
+macro\\_avg/acc\\_char | 66.7 | 66.7 | 79.5 | 79.3 | 85.2 |\n| MMLU-Pro (CoT) |
+5 | macro\\_avg/acc\\_char | 36.2 | 37.1 | 55.0 | 53.8 | 61.6 | |\n| AGIEval
+English | 3-5 | average/acc\\_char | 47.1 | 47.8 | 63.0 | 64.6 | 71.6 | |\n|
+CommonSenseQA | 7 | acc\\_char | 72.6 | 75.0 | 83.8 | 84.1 | 85.8 | |\n|
+Winogrande | 5 | acc\\_char | - | 60.5 | - | 83.3 | 86.7 | |\n| BIG-Bench Hard
+(CoT) | 3 | average/em | 61.1 | 64.2 | 81.3 | 81.6 | 85.9 | |\n| ARC-Challenge |
+25 | acc\\_char | 79.4 | 79.7 | 93.1 | 92.9 | 96.1 | |\n| Knowledge reasoning |
+TriviaQA-Wiki | 5 | em | 78.5 | 77.6 | 89.7 | 89.8 | 91.8 |\n| Reading
+comprehension | SQuAD | 1 | em | 76.4 | 77.0 | 85.6 | 81.8 | 89.3 |\n| QuAC (F1)
+| 1 | f1 | 44.4 | 44.9 | 51.1 | 51.1 | 53.6 | |\n| BoolQ | 0 | acc\\_char | 75.7
+| 75.0 | 79.0 | 79.4 | 80.0 | |\n| DROP (F1) | 3 | f1 | 58.4 | 59.5 | 79.7 |
+79.6 | 84.8 | |\n\n### Instruction tuned models\n\n\n| **Category** |
+**Benchmark** | **# Shots** | **Metric** | **Llama 3 8B Instruct** | **Llama 3.1
+8B Instruct** | **Llama 3 70B Instruct** | **Llama 3.1 70B Instruct** | **Llama
+3.1 405B Instruct** |\n| --------------------------- | ----------------------- |
+-------------------- | -------------- | ----------------------- |
+------------------------- | ------------------------ |
+-------------------------- | --------------------------- |\n| General | MMLU | 5
+| macro\\_avg/acc | 68.5 | 69.4 | 82.0 | 83.6 | 87.3 |\n| MMLU (CoT) | 0 |
+macro\\_avg/acc | 65.3 | 73.0 | 80.9 | 86.0 | 88.6 | |\n| MMLU-Pro (CoT) | 5 |
+micro\\_avg/acc\\_char | 45.5 | 48.3 | 63.4 | 66.4 | 73.3 | |\n| IFEval | | |
+76.8 | 80.4 | 82.9 | 87.5 | 88.6 | |\n| Reasoning | ARC-C | 0 | acc | 82.4 |
+83.4 | 94.4 | 94.8 | 96.9 |\n| GPQA | 0 | em | 34.6 | 30.4 | 39.5 | 41.7 | 50.7
+| |\n| Code | HumanEval | 0 | pass@1 | 60.4 | 72.6 | 81.7 | 80.5 | 89.0 |\n|
+MBPP ++ base version | 0 | pass@1 | 70.6 | 72.8 | 82.5 | 86.0 | 88.6 | |\n|
+Multipl-E HumanEval | 0 | pass@1 | - | 50.8 | - | 65.5 | 75.2 | |\n| Multipl-E
+MBPP | 0 | pass@1 | - | 52.4 | - | 62.0 | 65.7 | |\n| Math | GSM-8K (CoT) | 8 |
+em\\_maj1@1 | 80.6 | 84.5 | 93.0 | 95.1 | 96.8 |\n| MATH (CoT) | 0 | final\\_em
+| 29.1 | 51.9 | 51.0 | 68.0 | 73.8 | |\n| Tool Use | API-Bank | 0 | acc | 48.3 |
+82.6 | 85.1 | 90.0 | 92.0 |\n| BFCL | 0 | acc | 60.3 | 76.1 | 83.0 | 84.8 | 88.5
+| |\n| Gorilla Benchmark API Bench | 0 | acc | 1.7 | 8.2 | 14.7 | 29.7 | 35.3 |
+|\n| Nexus (0-shot) | 0 | macro\\_avg/acc | 18.1 | 38.5 | 47.8 | 56.7 | 58.7 |
+|\n| Multilingual | Multilingual MGSM (CoT) | 0 | em | - | 68.9 | - | 86.9 |
+91.6 |\n\n#### Multilingual benchmarks\n\n\n| **Category** | **Benchmark** |
+**Language** | **Llama 3.1 8B** | **Llama 3.1 70B** | **Llama 3.1 405B** |\n|
+------------ | --------------------------------- | ------------ |
+---------------- | ----------------- | ------------------ |\n| **General** |
+**MMLU (5-shot, macro\\_avg/acc)** | Portuguese | 62.12 | 80.13 | 84.95 |\n|
+Spanish | 62.45 | 80.05 | 85.08 | | |\n| Italian | 61.63 | 80.4 | 85.04 | | |\n|
+German | 60.59 | 79.27 | 84.36 | | |\n| French | 62.34 | 79.82 | 84.66 | | |\n|
+Hindi | 50.88 | 74.52 | 80.31 | | |\n| Thai | 50.32 | 72.95 | 78.21 | | |\n\n##
+Responsibility & Safety\n\nAs part of our Responsible release approach, we
+followed a three-pronged strategy to managing trust & safety risks:\n\n* Enable
+developers to deploy helpful, safe and flexible experiences for their target
+audience and for the use cases supported by Llama.** **\n* Protect developers
+against adversarial users aiming to exploit Llama capabilities to potentially
+cause harm.\n* Provide protections for the community to help prevent the misuse
+of our models.\n\n### Responsible deployment\n\nLlama is a foundational
+technology designed to be used in a variety of use cases, examples on how Meta’s
+Llama models have been responsibly deployed can be found in our** **[Community
+Stories webpage](https://llama.meta.com/community-stories/). Our approach is to
+build the most helpful models enabling the world to benefit from the technology
+power, by aligning our model safety for the generic use cases addressing a
+standard set of harms. Developers are then in the driver seat to tailor safety
+for their use case, defining their own policy and deploying the models with the
+necessary safeguards in their Llama systems. Llama 3.1 was developed following
+the best practices outlined in our Responsible Use Guide, you can refer to the**
+**[Responsible Use Guide](https://llama.meta.com/responsible-use-guide/) to
+learn more.** **\n\n#### Llama 3.1 instruct\n\nOur main objectives for
+conducting safety fine-tuning are to provide the research community with a
+valuable resource for studying the robustness of safety fine-tuning, as well as
+to offer developers a readily available, safe, and powerful model for various
+applications to reduce the developer workload to deploy safe AI systems. For
+more details on the safety mitigations implemented please read the Llama 3
+paper.** **\n\n**Fine-tuning data**\n\nWe employ a multi-faceted approach to
+data collection, combining human-generated data from our vendors with synthetic
+data to mitigate potential safety risks. We’ve developed many large language
+model (LLM)-based classifiers that enable us to thoughtfully select high-quality
+prompts and responses, enhancing data quality control.** **\n\n**Refusals and
+Tone**\n\nBuilding on the work we started with Llama 3, we put a great emphasis
+on model refusals to benign prompts as well as refusal tone. We included both
+borderline and adversarial prompts in our safety data strategy, and modified our
+safety data responses to follow tone guidelines.** **\n\n#### Llama 3.1
+systems\n\n**Large language models, including Llama 3.1, are not designed to be
+deployed in isolation but instead should be deployed as part of an overall AI
+system with additional safety guardrails as required.** Developers are expected
+to deploy system safeguards when building agentic systems. Safeguards are key to
+achieve the right helpfulness-safety alignment as well as mitigating safety and
+security risks inherent to the system and any integration of the model or system
+with external tools.** **\n\nAs part of our responsible release approach, we
+provide the community with**
+**[safeguards](https://llama.meta.com/trust-and-safety/) that developers should
+deploy with Llama models or other LLMs, including Llama Guard 3, Prompt Guard
+and Code Shield. All our** **[reference
+implementations](https://github.com/meta-llama/llama-agentic-system) demos
+contain these safeguards by default so developers can benefit from system-level
+safety out-of-the-box.** **\n\n#### New capabilities\n\nNote that this release
+introduces new capabilities, including a longer context window, multilingual
+inputs and outputs and possible integrations by developers with third party
+tools. Building with these new capabilities requires specific considerations in
+addition to the best practices that generally apply across all Generative AI use
+cases.\n\n**Tool-use**: Just like in standard software development, developers
+are responsible for the integration of the LLM with the tools and services of
+their choice. They should define a clear policy for their use case and assess
+the integrity of the third party services they use to be aware of the safety and
+security limitations when using this capability. Refer to the Responsible Use
+Guide for best practices on the safe deployment of the third party safeguards.**
+**\n\n**Multilinguality**: Llama 3.1 supports 7 languages in addition to
+English: French, German, Hindi, Italian, Portuguese, Spanish, and Thai. Llama
+may be able to output text in other languages than those that meet performance
+thresholds for safety and helpfulness. We strongly discourage developers from
+using this model to converse in non-supported languages without implementing
+finetuning and system controls in alignment with their policies and the best
+practices shared in the Responsible Use Guide.** **\n\n### Evaluations\n\nWe
+evaluated Llama models for common use cases as well as specific capabilities.
+Common use cases evaluations measure safety risks of systems for most commonly
+built applications including chat bot, coding assistant, tool calls. We built
+dedicated, adversarial evaluation datasets and evaluated systems composed of
+Llama models and Llama Guard 3 to filter input prompt and output response. It is
+important to evaluate applications in context, and we recommend building
+dedicated evaluation dataset for your use case. Prompt Guard and Code Shield are
+also available if relevant to the application.** **\n\nCapability evaluations
+measure vulnerabilities of Llama models inherent to specific capabilities, for
+which were crafted dedicated benchmarks including long context, multilingual,
+tools calls, coding or memorization.\n\n**Red teaming**\n\nFor both scenarios,
+we conducted recurring red teaming exercises with the goal of discovering risks
+via adversarial prompting and we used the learnings to improve our benchmarks
+and safety tuning datasets.** **\n\nWe partnered early with subject-matter
+experts in critical risk areas to understand the nature of these real-world
+harms and how such models may lead to unintended harm for society. Based on
+these conversations, we derived a set of adversarial goals for the red team to
+attempt to achieve, such as extracting harmful information or reprogramming the
+model to act in a potentially harmful capacity. The red team consisted of
+experts in cybersecurity, adversarial machine learning, responsible AI, and
+integrity in addition to multilingual content specialists with background in
+integrity issues in specific geographic markets.\n\n### Critical and other
+risks\n\nWe specifically focused our efforts on mitigating the following
+critical risk areas:\n\n**1- CBRNE (Chemical, Biological, Radiological, Nuclear,
+and Explosive materials) helpfulness**\n\nTo assess risks related to
+proliferation of chemical and biological weapons, we performed uplift testing
+designed to assess whether use of Llama 3.1 models could meaningfully increase
+the capabilities of malicious actors to plan or carry out attacks using these
+types of weapons.** **\n\n**2. Child Safety**\n\nChild Safety risk assessments
+were conducted using a team of experts, to assess the model’s capability to
+produce outputs that could result in Child Safety risks and inform on any
+necessary and appropriate risk mitigations via fine tuning. We leveraged those
+expert red teaming sessions to expand the coverage of our evaluation benchmarks
+through Llama 3 model development. For Llama 3, we conducted new in-depth
+sessions using objective based methodologies to assess the model risks along
+multiple attack vectors including the additional languages Llama 3 is trained
+on. We also partnered with content specialists to perform red teaming exercises
+assessing potentially violating content while taking account of market specific
+nuances or experiences.** **\n\n**3. Cyber attack enablement**\n\nOur cyber
+attack uplift study investigated whether LLMs can enhance human capabilities in
+hacking tasks, both in terms of skill level and speed.\n\nOur attack automation
+study focused on evaluating the capabilities of LLMs when used as autonomous
+agents in cyber offensive operations, specifically in the context of ransomware
+attacks. This evaluation was distinct from previous studies that considered LLMs
+as interactive assistants. The primary objective was to assess whether these
+models could effectively function as independent agents in executing complex
+cyber-attacks without human intervention.\n\nOur study of Llama-3.1-405B’s
+social engineering uplift for cyber attackers was conducted to assess the
+effectiveness of AI models in aiding cyber threat actors in spear phishing
+campaigns. Please read our Llama 3.1 Cyber security whitepaper to learn
+more.\n\n### Community\n\nGenerative AI safety requires expertise and tooling,
+and we believe in the strength of the open community to accelerate its progress.
+We are active members of open consortiums, including the AI Alliance,
+Partnership on AI and MLCommons, actively contributing to safety standardization
+and transparency. We encourage the community to adopt taxonomies like the
+MLCommons Proof of Concept evaluation to facilitate collaboration and
+transparency on safety and content evaluations. Our Purple Llama tools are open
+sourced for the community to use and widely distributed across ecosystem
+partners including cloud service providers. We encourage community contributions
+to our** **[Github repository](https://github.com/meta-llama/PurpleLlama).**
+**\n\nWe also set up the** **[Llama Impact
+Grants](https://llama.meta.com/llama-impact-grants/) program to identify and
+support the most compelling applications of Meta’s Llama model for societal
+benefit across three categories: education, climate and open innovation. The 20
+finalists from the hundreds of applications can be found**
+**[here](https://llama.meta.com/llama-impact-grants/#finalists).**
+**\n\nFinally, we put in place a set of resources including an** **[output
+reporting mechanism](https://developers.facebook.com/llama_output_feedback)
+and** **[bug bounty program](https://www.facebook.com/whitehat) to continuously
+improve the Llama technology with the help of the community.\n\n## Ethical
+Considerations and Limitations\n\nThe core values of Llama 3.1 are openness,
+inclusivity and helpfulness. It is meant to serve everyone, and to work for a
+wide range of use cases. It is thus designed to be accessible to people across
+many different backgrounds, experiences and perspectives. Llama 3.1 addresses
+users and their needs as they are, without insertion unnecessary judgment or
+normativity, while reflecting the understanding that even content that may
+appear problematic in some cases can serve valuable purposes in others. It
+respects the dignity and autonomy of all users, especially in terms of the
+values of free thought and expression that power innovation and progress.**
+**\n\nBut Llama 3.1 is a new technology, and like any new technology, there are
+risks associated with its use. Testing conducted to date has not covered, nor
+could it cover, all scenarios. For these reasons, as with all LLMs, Llama 3.1’s
+potential outputs cannot be predicted in advance, and the model may in some
+instances produce inaccurate, biased or other objectionable responses to user
+prompts. Therefore, before deploying any applications of Llama 3.1 models,
+developers should perform safety testing and tuning tailored to their specific
+applications of the model. Please refer to available resources including our**
+**[Responsible Use Guide](https://llama.meta.com/responsible-use-guide),**
+**[Trust and Safety](https://llama.meta.com/trust-and-safety/) solutions, and
+other** **[resources](https://llama.meta.com/docs/get-started/) to learn more
+about responsible
+development.","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":0,"views":133,"requests":"39","sort":null,"version":"v2-Mon
+Jul 29 18:01:38 GMT 2024","tags":["Text
+Generation"],"playground":false,"createTime":"2024-07-29T18:02:16","updateBy":"meta","updateTime":"2024-07-29T19:01:12"},{"id":1184,"versionId":5326,"owner":"tensoropera","applicationName":"Fox-1-1-6B","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/1718263291013fox%20logo%20%281%29.jpg","description":"##
+Model Card for Fox-1-1.6B\n\n\n> This model is a base pretrained model which
+requires further finetuning for most use cases. We will release the\n>
+instruction-tuned version soon.\n\nFox-1 is a decoder-only transformer-based
+small language model (SLM) with 1.6B total parameters developed\nby [TensorOpera
+AI](https://tensoropera.ai/). The model was trained with a 3-stage data
+curriculum on 3 trillion tokens\nof text and code data in 8K sequence length.
+Fox-1 uses grouped query attention (GQA) with 4 KV heads and 16 attention\nheads
+and has a deeper architecture than other SLMs.\n\nFor the full details of this
+model please read\nour [release blog
+post](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants).","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":3,"views":91,"requests":"0","sort":null,"version":"v0-Thu
+Jun 13 07:17:07 GMT 2024","tags":["Text
+Generation"],"playground":false,"createTime":"2024-06-13T07:17:52","updateBy":"tensoropera","updateTime":"2024-06-13T07:21:34"},{"id":1038,"versionId":4886,"owner":"mistralai","applicationName":"Mixtral-8x22B-v0-1","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/1713222681020Screenshot%202024-04-15%20at%204.10.59%E2%80%AFPM.png","description":"---\nlanguage:\n\n-
+fr\n\n- it\n\n- de\n\n- es\n\n- en\n\nlicense: apache-2.0\n\ntags:\n\n-
+moe\n\nmodel-index:\n\n- name: Mixtral-8x22B-v0.1\n\n** **results:\n\n** **-
+task:\n\n** **type: text-generation\n\n** **name: Text Generation\n\n**
+**dataset:\n\n** **name: AI2 Reasoning Challenge (25-Shot)\n\n** **type:
+ai2\\_arc\n\n** **config: ARC-Challenge\n\n** **split: test\n\n** **args:\n\n**
+**num\\_few\\_shot: 25\n\n** **metrics:\n\n** **- type: acc\\_norm\n\n**
+**value: 70.48\n\n** **name: normalized accuracy\n\n** **source:\n\n** **url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n\n** **- task:\n\n** **type: text-generation\n\n**
+**name: Text Generation\n\n** **dataset:\n\n** **name: HellaSwag (10-Shot)\n\n**
+**type: hellaswag\n\n** **split: validation\n\n** **args:\n\n**
+**num\\_few\\_shot: 10\n\n** **metrics:\n\n** **- type: acc\\_norm\n\n**
+**value: 88.73\n\n** **name: normalized accuracy\n\n** **source:\n\n** **url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n\n** **- task:\n\n** **type: text-generation\n\n**
+**name: Text Generation\n\n** **dataset:\n\n** **name: MMLU (5-Shot)\n\n**
+**type: cais/mmlu\n\n** **config: all\n\n** **split: test\n\n** **args:\n\n**
+**num\\_few\\_shot: 5\n\n** **metrics:\n\n** **- type: acc\n\n** **value:
+77.81\n\n** **name: accuracy\n\n** **source:\n\n** **url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n\n** **- task:\n\n** **type: text-generation\n\n**
+**name: Text Generation\n\n** **dataset:\n\n** **name: TruthfulQA (0-shot)\n\n**
+**type: truthful\\_qa\n\n** **config: multiple\\_choice\n\n** **split:
+validation\n\n** **args:\n\n** **num\\_few\\_shot: 0\n\n** **metrics:\n\n** **-
+type: mc2\n\n** **value: 51.08\n\n** **source:\n\n** **url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n\n** **- task:\n\n** **type: text-generation\n\n**
+**name: Text Generation\n\n** **dataset:\n\n** **name: Winogrande (5-shot)\n\n**
+**type: winogrande\n\n** **config: winogrande\\_xl\n\n** **split:
+validation\n\n** **args:\n\n** **num\\_few\\_shot: 5\n\n** **metrics:\n\n** **-
+type: acc\n\n** **value: 84.53\n\n** **name: accuracy\n\n** **source:\n\n**
+**url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n\n** **- task:\n\n** **type: text-generation\n\n**
+**name: Text Generation\n\n** **dataset:\n\n** **name: GSM8k (5-shot)\n\n**
+**type: gsm8k\n\n** **config: main\n\n** **split: test\n\n** **args:\n\n**
+**num\\_few\\_shot: 5\n\n** **metrics:\n\n** **- type: acc\n\n** **value:
+74.15\n\n** **name: accuracy\n\n** **source:\n\n** **url:
+https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard?query=mistral-community/Mixtral-8x22B-v0.1\n\n**
+**name: Open LLM Leaderboard\n---\n\n# Mixtral-8x22B\n\n> [!TIP]\n\n> Kudos to
+[@v2ray](https://huggingface.co/v2ray) for converting the checkpoints and
+uploading them in \\`transformers\\` compatible format. Go give them a
+follow!\n\nConverted to HuggingFace Transformers format using the script
+[here](https://huggingface.co/v2ray/Mixtral-8x22B-v0.1/blob/main/convert.py).\n\nThe
+Mixtral-8x22B Large Language Model (LLM) is a pretrained generative Sparse
+Mixture of Experts.\n\n## Run the model\n\n\\`\\`\\`python\n\nfrom transformers
+import AutoModelForCausalLM, AutoTokenizer\n\nmodel\\_id =
+\"mistral-community/Mixtral-8x22B-v0.1\"\n\ntokenizer =
+AutoTokenizer.from\\_pretrained(model\\_id)\n\nmodel =
+AutoModelForCausalLM.from\\_pretrained(model\\_id)\n\ntext = \"Hello my name
+is\"\n\ninputs = tokenizer(text, return\\_tensors=\"pt\")\n\noutputs =
+model.generate(\\*\\*inputs,
+max\\_new\\_tokens=20)\n\nprint(tokenizer.decode(outputs[0],
+skip\\_special\\_tokens=True))\n\n\\`\\`\\`\n\nBy default, transformers will
+load the model in full precision. Therefore you might be interested to further
+reduce down the memory requirements to run the model through the optimizations
+we offer in HF ecosystem:\n\n### In half-precision\n\nNote \\`float16\\`
+precision only works on GPU devices\n\n
+<details>
+  \n\n
+  <summary>Click to expand</summary>
+  \n\n\\`\\`\\`diff\n\n+ import torch\n\nfrom transformers import
+  AutoModelForCausalLM, AutoTokenizer\n\nmodel\\_id =
+  \"mistral-community/Mixtral-8x22B-v0.1\"\n\ntokenizer =
+  AutoTokenizer.from\\_pretrained(model\\_id)\n\n+ model =
+  AutoModelForCausalLM.from\\_pretrained(model\\_id,
+  torch\\_dtype=torch.float16).to(0)\n\ntext = \"Hello my name is\"\n\n+ inputs
+  = tokenizer(text, return\\_tensors=\"pt\").to(0)\n\noutputs =
+  model.generate(\\*\\*inputs,
+  max\\_new\\_tokens=20)\n\nprint(tokenizer.decode(outputs[0],
+  skip\\_special\\_tokens=True))\n\n\\`\\`\\`\n\n
+</details>
+\n\n### Lower precision using (8-bit & 4-bit) using \\`bitsandbytes\\`\n\n
+<details>
+  \n\n
+  <summary>Click to expand</summary>
+  \n\n\\`\\`\\`diff\n\n+ import torch\n\nfrom transformers import
+  AutoModelForCausalLM, AutoTokenizer\n\nmodel\\_id =
+  \"mistral-community/Mixtral-8x22B-v0.1\"\n\ntokenizer =
+  AutoTokenizer.from\\_pretrained(model\\_id)\n\n+ model =
+  AutoModelForCausalLM.from\\_pretrained(model\\_id,
+  load\\_in\\_4bit=True)\n\ntext = \"Hello my name is\"\n\n+ inputs =
+  tokenizer(text, return\\_tensors=\"pt\").to(0)\n\noutputs =
+  model.generate(\\*\\*inputs,
+  max\\_new\\_tokens=20)\n\nprint(tokenizer.decode(outputs[0],
+  skip\\_special\\_tokens=True))\n\n\\`\\`\\`\n\n
+</details>
+\n\n### Load the model with Flash Attention 2\n\n
+<details>
+  \n\n
+  <summary>Click to expand</summary>
+  \n\n\\`\\`\\`diff\n\n+ import torch\n\nfrom transformers import
+  AutoModelForCausalLM, AutoTokenizer\n\nmodel\\_id =
+  \"mistral-community/Mixtral-8x22B-v0.1\"\n\ntokenizer =
+  AutoTokenizer.from\\_pretrained(model\\_id)\n\n+ model =
+  AutoModelForCausalLM.from\\_pretrained(model\\_id,
+  use\\_flash\\_attention\\_2=True)\n\ntext = \"Hello my name is\"\n\n+ inputs =
+  tokenizer(text, return\\_tensors=\"pt\").to(0)\n\noutputs =
+  model.generate(\\*\\*inputs,
+  max\\_new\\_tokens=20)\n\nprint(tokenizer.decode(outputs[0],
+  skip\\_special\\_tokens=True))\n\n\\`\\`\\`\n\n
+</details>
+\n\n## Notice\n\nMixtral-8x22B-v0.1 is a pretrained base model and therefore
+does not have any moderation mechanisms.\n\n# The Mistral AI Team\n\nAlbert
+Jiang, Alexandre Sablayrolles, Alexis Tacnet, Antoine Roux, Arthur Mensch,
+Audrey Herblin-Stoop, Baptiste Bout, Baudouin de Monicault,Blanche Savary,
+Bam4d, Caroline Feldman, Devendra Singh Chaplot, Diego de las Casas, Eleonore
+Arcelin, Emma Bou Hanna, Etienne Metzger, Gianna Lengyel, Guillaume Bour,
+Guillaume Lample, Harizo Rajaona, Jean-Malo Delignon, Jia Li, Justus Murke,
+Louis Martin, Louis Ternon, Lucile Saulnier, Lélio Renard Lavaud, Margaret
+Jennings, Marie Pellat, Marie Torelli, Marie-Anne Lachaux, Nicolas Schuhl,
+Patrick von Platen, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon
+Antoniak, Teven Le Scao, Thibaut Lavril, Timothée Lacroix, Théophile Gervet,
+Thomas Wang, Valera Nemychnikova, William El Sayed, William Marshall.\n\n# [Open
+LLM Leaderboard Evaluation
+Results](https://huggingface.co/spaces/HuggingFaceH4/open\\_llm\\_leaderboard)\n\nDetailed
+results can be found
+[here](https://huggingface.co/datasets/open-llm-leaderboard/details\\_mistral-community\\_\\_Mixtral-8x22B-v0.1)\n\n|
+** **Metric** **|Value|\n\n|---------------------------------|----:|\n\n|Avg. **
+**|74.46|\n\n|AI2 Reasoning Challenge (25-Shot)|70.48|\n\n|HellaSwag (10-Shot)**
+**|88.73|\n\n|MMLU (5-Shot)** **|77.81|\n\n|TruthfulQA (0-shot)**
+**|51.08|\n\n|Winogrande (5-shot)** **|84.53|\n\n|GSM8k (5-shot) **
+**|74.15|","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":0,"views":156,"requests":"0","sort":null,"version":"v9-Mon
+Apr 15 23:11:25 GMT 2024","tags":["Text
+Generation"],"playground":false,"createTime":"2024-04-15T23:12:34","updateBy":"mistralai","updateTime":"2024-04-15T23:12:44"},{"id":680,"versionId":4957,"owner":"InstantX","applicationName":"InstantID","jobType":2,"jobSubType":null,"accessPermission":0,"pictureUrl":"https://fedml.s3.us-west-1.amazonaws.com/1708022164551InstantXLogo.webp","description":"InstantID","modelId":1,"dataId":1,"platformId":-1,"users":0,"favorites":5,"views":163,"requests":"166","sort":null,"version":"v9-Wed
+Apr 17 23:41:12 GMT 2024","tags":["Image
+Stylization"],"playground":false,"createTime":"2024-04-18T06:00:14","updateBy":"InstantX","updateTime":"2024-04-18T06:10:59"}]}}

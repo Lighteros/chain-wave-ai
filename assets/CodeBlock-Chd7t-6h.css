@@ -1,0 +1,12 @@
+.shiki {
+  padding: 0.5em;
+  margin-bottom: 0;
+  border-radius: inherit;
+}
+.code-block--dense .shiki {
+  padding: 0.2em;
+}
+.wrap .shiki span.line {
+  display: flex;
+  flex-wrap: wrap;
+}

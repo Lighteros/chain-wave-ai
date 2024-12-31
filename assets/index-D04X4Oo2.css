@@ -1,0 +1,23 @@
+.fedml-st-login[data-v-66f85410] {
+  position: fixed;
+  z-index: 9999999;
+  width: 100%;
+  height: 100%;
+}
+.fedml-setting-drawer-fearure {
+  position: absolute;
+  top: 45%;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px 0 0 6px;
+  justify-content: center;
+  align-items: center;
+}
+.fedml-setting-drawer-fearure svg {
+  width: 1em;
+  height: 1em;
+}

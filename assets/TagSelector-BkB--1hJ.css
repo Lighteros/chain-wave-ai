@@ -1,0 +1,48 @@
+.tag-selector {
+  height: 100%;
+}
+.tag-selector-top {
+  padding: 10px;
+  margin: 16px 16px 12px;
+  border-radius: 3px;
+  height: 100%;
+}
+.tag-selector-top__avatar {
+  text-align: center;
+}
+.tag-selector-top__avatar img {
+  margin: auto;
+  border-radius: 50%;
+}
+.tag-selector-top__avatar span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+}
+.tag-selector-top__avatar div {
+  margin-top: 3px;
+  font-size: 12px;
+}
+.tag-selector-top__detail {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+.tag-selector-top__team-item {
+  display: inline-block;
+  padding: 4px 24px;
+}
+.tag-selector-top__team span {
+  margin-left: 3px;
+}
+.tag-selector-col:not(:last-child) {
+  padding: 0 10px;
+  height: 100%;
+}
+.tag-selector-col:not(:last-child):not(:last-child) {
+  border-right: 1px dashed rgba(206, 206, 206, 0.5);
+}
+.tag-selector-application-list {
+  padding: 10px;
+  margin: 0 16px 16px;
+  border-radius: 3px;
+}

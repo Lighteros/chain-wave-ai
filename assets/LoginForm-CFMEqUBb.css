@@ -1,0 +1,25 @@
+.githubButton {
+  width: 100%;
+  height: 40px;
+  background-color: #202124;
+  color: #fff;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.21px;
+  border-radius: 2px;
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.githubButton:hover {
+  box-shadow: 0 0 5px #34333480;
+}
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+.checkbox-container {
+  align-self: flex-start;
+  margin-right: 10px;
+}

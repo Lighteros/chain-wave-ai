@@ -1,0 +1,13 @@
+.fedml-layout-multiple-header[data-v-e7c91241] {
+  flex: 0 0 auto;
+  transition: width 0.2s;
+}
+.fedml-layout-multiple-header--dark[data-v-e7c91241] {
+  margin-left: -1px;
+}
+.fedml-layout-multiple-header--fixed[data-v-e7c91241] {
+  position: fixed;
+  z-index: 505;
+  top: 0;
+  width: 100%;
+}

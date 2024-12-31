@@ -1,0 +1,106 @@
+.vue-tel-input[data-v-378eadcb] {
+  border-radius: 3px;
+  display: flex;
+  border: 1px solid #bbb;
+  text-align: left;
+}
+.vue-tel-input.disabled .selection[data-v-378eadcb],
+.vue-tel-input.disabled .dropdown[data-v-378eadcb],
+.vue-tel-input.disabled input[data-v-378eadcb] {
+  cursor: no-drop;
+}
+.vue-tel-input[data-v-378eadcb]:focus-within {
+  box-shadow: inset 0 1px 1px #00000013, 0 0 8px #66afe999;
+  border-color: #66afe9;
+}
+.intl-tel__dropdown[data-v-378eadcb] {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  padding: 7px;
+  cursor: pointer;
+}
+.intl-tel__dropdown.show[data-v-378eadcb] {
+  max-height: 300px;
+  overflow: scroll;
+}
+.intl-tel__dropdown.open[data-v-378eadcb] {
+  background-color: #f3f3f3;
+}
+.intl-tel__dropdown.disabled[data-v-378eadcb] {
+  cursor: no-drop;
+  outline: none;
+  background-color: #f3f3f3;
+}
+.intl-tel__dropdown[data-v-378eadcb]:hover {
+  background-color: #f3f3f3;
+}
+.intl-tel__selection[data-v-378eadcb] {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+}
+.intl-tel__selection .intl-tel__country-code[data-v-378eadcb] {
+  color: #666;
+}
+.intl-tel__flag[data-v-378eadcb] {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.intl-tel__dropdown-list[data-v-378eadcb] {
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  list-style: none;
+  max-height: 200px;
+  overflow-y: scroll;
+  position: absolute;
+  left: -1px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 390px;
+}
+.intl-tel__dropdown-list.below[data-v-378eadcb] {
+  top: 33px;
+}
+.intl-tel__dropdown-list.above[data-v-378eadcb] {
+  top: auto;
+  bottom: 100%;
+}
+.intl-tel__dropdown-arrow[data-v-378eadcb] {
+  transform: scaleY(0.5);
+  display: inline-block;
+  color: #666;
+}
+.intl-tel__dropdown-item[data-v-378eadcb] {
+  cursor: pointer;
+  padding: 4px 15px;
+}
+.intl-tel__dropdown-item.highlighted[data-v-378eadcb] {
+  background-color: #f3f3f3;
+}
+.intl-tel__dropdown-item.last-preferred[data-v-378eadcb] {
+  border-bottom: 1px solid #cacaca;
+}
+.intl-tel__dropdown-item .intl-tel__flag[data-v-378eadcb] {
+  display: inline-block;
+  margin-right: 5px;
+}
+.intl-tel__input[data-v-378eadcb] {
+  position: sticky;
+  top: 0;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  width: 100%;
+  outline: none;
+  padding-left: 7px;
+}
+.intl-tel__search_box[data-v-378eadcb] {
+  border: 1px solid #ccc;
+  width: 94%;
+  padding: 7px;
+  margin: 2px;
+}

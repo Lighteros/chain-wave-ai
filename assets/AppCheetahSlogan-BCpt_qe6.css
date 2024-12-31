@@ -1,0 +1,43 @@
+.acs-root[data-v-46e7bf6a] {
+  --arrow-size: 14px;
+  .acs-box[data-v-46e7bf6a] {
+    border: 1px solid #ccc;
+    padding: 16px;
+    flex: 2;
+    &[data-v-46e7bf6a]:hover {
+      border-color: #eee;
+    }
+  }
+  .acs-arrow[data-v-46e7bf6a] {
+    flex: 1;
+    position: relative;
+    height: 1px;
+    background: currentColor;
+    margin: 18px;
+    overflow: visible;
+    &[data-v-46e7bf6a]:after,
+    &[data-v-46e7bf6a]:before {
+      position: absolute;
+      content: "";
+      border-width: var(--arrow-size);
+      border-color: transparent;
+      top: calc(-1 * var(--arrow-size));
+      transform-origin: center;
+      transform: scaleY(0.5);
+    }
+    &[data-v-46e7bf6a]:before {
+      left: calc(-1 * var(--arrow-size));
+      border-right-color: currentColor;
+    }
+    &[data-v-46e7bf6a]:after {
+      right: calc(-1 * var(--arrow-size));
+      border-left-color: currentColor;
+    }
+    &.acs-arrow--start[data-v-46e7bf6a]:after {
+      display: none;
+    }
+    &.acs-arrow--end[data-v-46e7bf6a]:before {
+      display: none;
+    }
+  }
+}

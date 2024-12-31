@@ -1,0 +1,19 @@
+.flex-container[data-v-fc579447] {
+  display: flex;
+  align-items: center;
+}
+.flex-container[data-v-fc579447] > * {
+  margin-right: 8px;
+}
+.is-tips[data-v-fc579447] {
+  position: relative;
+}
+.is-tips .tips-btn[data-v-fc579447] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -70px;
+}
+.form-item-flex[data-v-fc579447] {
+  float: right;
+}

@@ -1,0 +1,178 @@
+html[data-theme="dark"] .fedml-multiple-tabs .ant-tabs-tab {
+  border-bottom: 1px solid #d9d9d9;
+}
+html[data-theme="light"]
+  .fedml-multiple-tabs
+  .ant-tabs-tab:not(.ant-tabs-tab-active) {
+  border: 1px solid #d9d9d9 !important;
+}
+.fedml-multiple-tabs {
+  z-index: 10;
+  height: 32px;
+  border-bottom: 1px solid #d9d9d9;
+  line-height: 32px;
+}
+.fedml-multiple-tabs .ant-tabs-small {
+  height: 30px;
+}
+.fedml-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav {
+  height: 30px;
+  margin: 0;
+  padding-top: 2px;
+  border: 0;
+  box-shadow: none;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-nav-container {
+  height: 30px;
+  padding-top: 2px;
+}
+.fedml-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav .ant-tabs-tab {
+  height: 28px;
+  padding-right: 12px;
+  transition: none;
+  color: #000000e0;
+  line-height: 28px;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab:hover
+  .ant-tabs-tab-remove {
+  opacity: 1;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab
+  .ant-tabs-tab-remove {
+  width: 8px;
+  height: 28px;
+  margin-right: -4px;
+  margin-left: 2px;
+  transition: none;
+  opacity: 0;
+  color: inherit;
+  font-size: 12px;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab
+  .ant-tabs-tab-remove:hover
+  svg {
+  width: 0.8em;
+}
+.fedml-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav .ant-tabs-tab svg {
+  fill: #000000e0;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab-active {
+  position: relative;
+  padding-left: 18px;
+  transition: none;
+  border: 0;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab-active
+  span {
+  color: #fff !important;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab-active
+  .ant-tabs-tab-remove {
+  opacity: 1;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  .ant-tabs-tab-active
+  svg {
+  width: 0.7em;
+  fill: #fff;
+}
+.fedml-multiple-tabs .ant-tabs.ant-tabs-card .ant-tabs-nav > div:nth-child(1) {
+  padding: 0 6px;
+}
+.fedml-multiple-tabs
+  .ant-tabs.ant-tabs-card
+  .ant-tabs-nav
+  > div:nth-child(1)
+  .ant-tabs-tab {
+  margin-right: 3px !important;
+}
+.fedml-multiple-tabs .ant-tabs-tab:not(.ant-tabs-tab-active) .anticon-close {
+  font-size: 12px;
+}
+.fedml-multiple-tabs
+  .ant-tabs-tab:not(.ant-tabs-tab-active)
+  .anticon-close
+  svg {
+  width: 0.6em;
+}
+.fedml-multiple-tabs .ant-dropdown-trigger {
+  display: inline-flex;
+}
+.fedml-multiple-tabs--hide-close .ant-tabs-tab-remove {
+  opacity: 0 !important;
+}
+.fedml-multiple-tabs-content__extra-quick,
+.fedml-multiple-tabs-content__extra-redo,
+.fedml-multiple-tabs-content__extra-fold {
+  display: inline-block;
+  width: 36px;
+  height: 30px;
+  border-left: 1px solid #d9d9d9;
+  color: #000000a6;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.fedml-multiple-tabs-content__extra-quick:hover,
+.fedml-multiple-tabs-content__extra-redo:hover,
+.fedml-multiple-tabs-content__extra-fold:hover {
+  color: #000000e0;
+}
+.fedml-multiple-tabs-content__extra-quick span[role="img"],
+.fedml-multiple-tabs-content__extra-redo span[role="img"],
+.fedml-multiple-tabs-content__extra-fold span[role="img"] {
+  transform: rotate(90deg);
+}
+.fedml-multiple-tabs-content__extra-redo span[role="img"] {
+  transform: rotate(0);
+}
+.fedml-multiple-tabs-content__info {
+  display: inline-block;
+  width: 100%;
+  height: 28px;
+  margin-left: -10px;
+  padding-left: 0;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.ant-tabs-dropdown-menu-title-content {
+  display: flex;
+  align-items: center;
+}
+.ant-tabs-dropdown-menu-title-content .fedml-multiple-tabs-content__info {
+  width: auto;
+  margin-left: 0;
+  line-height: 28px;
+}
+.ant-tabs-dropdown-menu-item-remove {
+  margin-left: auto;
+}
+.multiple-tabs__dropdown .ant-dropdown-content {
+  width: 172px;
+}

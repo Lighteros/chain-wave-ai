@@ -1,0 +1,38 @@
+.fedml-basic-help {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 14px;
+  color: #909399;
+  cursor: pointer;
+}
+.fedml-basic-help__wrap p {
+  margin-bottom: 0;
+}
+.fedml-basic-title[data-v-f19e63cb] {
+  position: relative;
+  display: flex;
+  padding-left: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.fedml-basic-title-normal[data-v-f19e63cb] {
+  font-size: 14px;
+  font-weight: 500;
+}
+.fedml-basic-title-show-span[data-v-f19e63cb]:before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  margin-right: 4px;
+  content: "";
+}
+.fedml-basic-title-help[data-v-f19e63cb] {
+  margin-left: 10px;
+}

@@ -1,0 +1,54 @@
+.fedml-strength-meter-bar[data-v-3c1639a1] {
+  position: relative;
+  height: 6px;
+  margin: 10px auto 6px;
+  background-color: #00000040;
+  border-radius: 6px;
+}
+.fedml-strength-meter-bar[data-v-3c1639a1]:before,
+.fedml-strength-meter-bar[data-v-3c1639a1]:after {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  width: 20%;
+  height: inherit;
+  background-color: transparent;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 5px;
+  content: "";
+}
+.fedml-strength-meter-bar[data-v-3c1639a1]:before {
+  left: 20%;
+}
+.fedml-strength-meter-bar[data-v-3c1639a1]:after {
+  right: 20%;
+}
+.fedml-strength-meter-bar--fill[data-v-3c1639a1] {
+  position: absolute;
+  width: 0;
+  height: inherit;
+  background-color: transparent;
+  border-radius: inherit;
+  transition: width 0.5s ease-in-out, background 0.25s;
+}
+.fedml-strength-meter-bar--fill[data-score="0"][data-v-3c1639a1] {
+  width: 20%;
+  background-color: #ff1a1d;
+}
+.fedml-strength-meter-bar--fill[data-score="1"][data-v-3c1639a1] {
+  width: 40%;
+  background-color: #ff4d4f;
+}
+.fedml-strength-meter-bar--fill[data-score="2"][data-v-3c1639a1] {
+  width: 60%;
+  background-color: #faad14;
+}
+.fedml-strength-meter-bar--fill[data-score="3"][data-v-3c1639a1] {
+  width: 80%;
+  background-color: #52c41a80;
+}
+.fedml-strength-meter-bar--fill[data-score="4"][data-v-3c1639a1] {
+  width: 100%;
+  background-color: #52c41a;
+}

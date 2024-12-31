@@ -1,0 +1,55 @@
+.fedml-basic-arrow[data-v-3505c88e] {
+  display: inline-block;
+  cursor: pointer;
+  transform: rotate(0);
+  transition: all 0.3s ease 0.1s;
+  transform-origin: center center;
+}
+.fedml-basic-arrow--active[data-v-3505c88e] {
+  transform: rotate(90deg);
+}
+.fedml-basic-arrow.inset[data-v-3505c88e] {
+  line-height: 0px;
+}
+.fedml-basic-arrow.up[data-v-3505c88e] {
+  transform: rotate(-90deg);
+}
+.fedml-basic-arrow.down[data-v-3505c88e],
+.fedml-basic-arrow.up.fedml-basic-arrow--active[data-v-3505c88e] {
+  transform: rotate(90deg);
+}
+.fedml-basic-arrow.down.fedml-basic-arrow--active[data-v-3505c88e] {
+  transform: rotate(-90deg);
+}
+.fedml-collapse-container {
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.fedml-collapse-container__header {
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+.fedml-collapse-container__footer {
+  border-top: 1px solid #d9d9d9;
+}
+.fedml-collapse-container__action {
+  display: flex;
+  text-align: right;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.scroll-container {
+  width: 100%;
+  height: 100%;
+}
+.scroll-container .scrollbar__wrap {
+  margin-bottom: 18px !important;
+  overflow-x: hidden;
+}
+.scroll-container .scrollbar__view {
+  box-sizing: border-box;
+}

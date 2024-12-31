@@ -1,0 +1,19 @@
+.fedml-layout-footer[data-v-9eabdda7] {
+  color: #d9d9d9;
+  text-align: center;
+}
+.fedml-layout-footer__links[data-v-9eabdda7] {
+  margin-bottom: 8px;
+}
+.fedml-layout-footer__links a[data-v-9eabdda7] {
+  color: #d9d9d9;
+}
+.fedml-layout-footer__links a[data-v-9eabdda7]:hover {
+  color: #000000d9;
+}
+.fedml-layout-footer__github[data-v-9eabdda7] {
+  margin: 0 30px;
+}
+.fedml-layout-footer__github[data-v-9eabdda7]:hover {
+  color: #000000d9;
+}

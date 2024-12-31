@@ -1,0 +1,98 @@
+html[data-theme="dark"] .fedml-login {
+  background-color: #293146;
+}
+html[data-theme="dark"] .fedml-login .ant-input,
+html[data-theme="dark"] .fedml-login .ant-input-password {
+  background-color: #232a3b;
+}
+html[data-theme="dark"]
+  .fedml-login
+  .ant-btn:not(.ant-btn-link):not(.ant-btn-primary) {
+  border: 1px solid #4a5569;
+}
+html[data-theme="dark"] .fedml-login-form {
+  background: transparent !important;
+}
+html[data-theme="dark"] .fedml-login .app-iconify {
+  color: #fff;
+}
+html[data-theme="dark"] input.fix-auto-fill,
+html[data-theme="dark"] .fix-auto-fill input {
+  text-fill-color: #c9d1d9 !important;
+  box-shadow: inherit !important;
+}
+.fedml-login {
+  min-height: 100%;
+  overflow: hidden;
+  background-image: url(/assets/loginBg-CadMExEp.jpg);
+  background-size: 100% 100%;
+}
+@media (max-width: 1200px) {
+  .fedml-login {
+    background-color: #293146;
+  }
+  .fedml-login .fedml-login-form {
+    background-color: #fff;
+  }
+}
+.fedml-login .fedml-login-form {
+  width: 455px;
+  background-color: #fff;
+  box-shadow: 0 17px 32px 1px #00000029;
+}
+.fedml-login .container {
+  overflow-y: auto;
+}
+.fedml-login .container .fedml-app-logo {
+  display: flex;
+  height: 80px;
+}
+.fedml-login .container .fedml-app-logo__title {
+  font-size: 1.875rem;
+  color: #000000d9;
+}
+.fedml-login .container .fedml-app-logo img {
+  width: 48px;
+}
+.fedml-login-sign-in-way .anticon {
+  font-size: 22px;
+  color: #888;
+  cursor: pointer;
+}
+.fedml-login input:not([type="checkbox"]) {
+  min-width: 140px;
+}
+@media (max-width: 1200px) {
+  .fedml-login input:not([type="checkbox"]) {
+    min-width: 320px;
+  }
+}
+@media (max-width: 992px) {
+  .fedml-login input:not([type="checkbox"]) {
+    min-width: 260px;
+  }
+}
+@media (max-width: 768px) {
+  .fedml-login input:not([type="checkbox"]) {
+    min-width: 240px;
+  }
+}
+@media (max-width: 576px) {
+  .fedml-login input:not([type="checkbox"]) {
+    min-width: 160px;
+  }
+}
+.fedml-login .fedml-countdown-input input {
+  min-width: unset;
+}
+.fedml-login .ant-divider-inner-text {
+  font-size: 12px;
+  color: #000000a6;
+}
+.loginTabs[data-v-ddb1d5b9] .ant-tabs-nav {
+  padding: 0 29px;
+}
+.loginTabs[data-v-ddb1d5b9] .ant-tabs-tab {
+  color: #666;
+  font-size: 18px;
+}
