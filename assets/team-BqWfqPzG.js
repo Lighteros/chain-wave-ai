@@ -246,7 +246,7 @@ const g = (e) => (p("data-v-e224fbad"), (e = e()), m(), e),
         class: "max-w-2/3",
         "lt-md": "text-base px-4 mb-8",
       },
-      " Join our team and become a part of ChainOpera AI, shaping the future of AI together with us. ",
+      " Join our team and become a part of ChainWave AI, shaping the future of AI together with us. ",
       -1
     )
   ),

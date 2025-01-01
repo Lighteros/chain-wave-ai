@@ -16323,7 +16323,7 @@ const cw = {
           hideMenu: !0,
           title: "Home",
           tabTitle:
-            "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
+            "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
           icon: "i-solar:home-2-linear",
           activeIcon: "i-solar:home-2-bold",
           description:
@@ -16342,7 +16342,7 @@ const cw = {
               hideMenu: !0,
               title: "Home",
               tabTitle:
-                "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
+                "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
               icon: "i-solar:home-2-linear",
               hideLogin: !0,
               showQuest: !0,
@@ -16366,7 +16366,7 @@ const cw = {
               hideMenu: !0,
               title: "Home",
               tabTitle:
-                "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents, Backed by Federated AI OS and Platform",
+                "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents, Backed by Federated AI OS and Platform",
               icon: "i-solar:home-2-linear",
               hideLogin: !0,
               showQuest: !0,
@@ -16552,7 +16552,7 @@ const cw = {
           hideMenu: !0,
           title: "Home",
           tabTitle:
-            "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
+            "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
           icon: "i-solar:home-2-linear",
           activeIcon: "i-solar:home-2-bold",
           description:
@@ -16593,7 +16593,7 @@ const cw = {
               hideMenu: !0,
               title: "Home",
               tabTitle:
-                "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
+                "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
               icon: "i-solar:home-2-linear",
               showQuest: !0,
               hideLogin: !0,
@@ -16614,7 +16614,7 @@ const cw = {
               hideMenu: !0,
               title: "Home",
               tabTitle:
-                "ChainOpera AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
+                "ChainWave AI - The Blockchain and Protocol for Co-owning and Co-creating Decentralized AI Apps and Agents for Humanity, Backed by Federated AI OS and Platform",
               icon: "i-solar:home-2-linear",
               showQuest: !0,
               hideLogin: !0,

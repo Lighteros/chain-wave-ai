@@ -91,68 +91,36 @@ const v = "/resource/img/chainopera/logo-with-brand.png",
         L = "/resource/img/chainopera/home/global.png",
         S = i([
           { icon: "i-icon:co-x", link: g.X },
-          { icon: "i-icon:co-discord", link: g.Discord },
-          { icon: "i-icon:co-linkin", link: g.Linkedin },
           { icon: "i-icon:co-telegram", link: g.TelegramMain },
         ]),
         U = i([
           {
             label: "Product",
             children: [
-              { label: "Platform", link: "/prod/model" },
               { label: "App Ecosystem", link: "/app/llm" },
+              { label: "Document", link: "https://sorojins-organization.gitbook.io/chainwave-ai" },
             ],
           },
-          {
-            label: "Resources",
-            children: [{ label: "Research", link: "/research" }],
-          },
-          { label: "Blog", children: [{ label: "Blog", link: g.Medium }] },
           {
             label: "About",
             children: [
               {
-                label: "Press",
-                key: "Press",
+                label: "Telegram",
+                key: "Telegram",
                 icon: "i-icon:co_press",
-                link: "/about/press",
+                link: "http://t.me/ChainWave_AI",
               },
               {
-                label: "Events",
-                key: "Events",
+                label: "Twitter",
+                key: "Twitter",
                 icon: "i-icon:co_event",
-                link: "/about/events",
-              },
-              {
-                label: "Careers",
-                key: "Careers",
-                icon: "i-icon:co-career",
-                link: g.Career,
-              },
-              {
-                label: "Team",
-                key: "Team",
-                icon: "i-icon:co_aboutus",
-                link: "/about/team",
-              },
-              {
-                label: "Contact Us",
-                key: "Contact Us",
-                icon: "i-icon:co_contact",
-                link: "/about/contact",
-              },
-              {
-                label: "Media kit",
-                key: "Media kit",
-                icon: "i-icon:co_media_kit",
-                link: "/about/media-kit",
+                link: "http://x.com/ChainWave_AI",
               },
             ],
           },
+
         ]),
         F = a([
-          { label: "Privacy Policy", link: "/privacyPolicy" },
-          { label: "Terms of Service", link: "/service" },
         ]);
       return (e, l) => {
         const i = y,

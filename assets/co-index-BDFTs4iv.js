@@ -272,98 +272,9 @@ const $ = { "px-4": "", class: "group", "cursor-pointer": "", relative: "" },
       const o = i,
         { push: t } = h(),
         { isSmallDesktop: a } = e(),
-        n = l([
-          {
-            label: "Products",
-            key: "Products",
-            subItems: [
-              {
-                label: "Platform",
-                key: "Platform",
-                subItems: [
-                  {
-                    label: "Decentralized AI Platform",
-                    key: "Decentralized AI Platform",
-                    icon: "i-icon:co_ai_platform",
-                    link: "/prod/model",
-                  },
-                ],
-              },
-              {
-                label: "Apps",
-                key: "Apps",
-                subItems: [
-                  {
-                    label: "Chat with AI",
-                    key: "Chat with AI",
-                    icon: "i-icon:co_chat",
-                    link: "/app/llm",
-                  },
-                  {
-                    label: "Generate Image",
-                    key: "Generate Image",
-                    icon: "i-icon:co_img",
-                    link: "/app/gen-img",
-                  },
-                  {
-                    label: "Generate Video",
-                    key: "Generate Video",
-                    icon: "i-icon:co_gen_video",
-                    link: "/app/gen-video",
-                  },
-                ],
-              },
-            ],
-          },
-          { label: "Research", key: "Research", link: "/research" },
-          { label: "Blog", key: "Blog", link: L.Medium },
-          {
-            label: "About",
-            key: "About",
-            subItems: [
-              {
-                label: "Press",
-                key: "Press",
-                icon: "i-icon:co_press",
-                link: "/about/press",
-              },
-              {
-                label: "Events",
-                key: "Events",
-                icon: "i-icon:co_event",
-                link: "/about/events",
-              },
-              {
-                label: "Careers",
-                key: "Careers",
-                icon: "i-icon:co-career",
-                link: L.Career,
-              },
-              {
-                label: "Team",
-                key: "Team",
-                icon: "i-icon:co_aboutus",
-                link: "/about/team",
-              },
-              {
-                label: "Contact Us",
-                key: "Contact Us",
-                icon: "i-icon:co_contact",
-                link: "/about/contact",
-              },
-              {
-                label: "Media kit",
-                key: "Media kit",
-                icon: "i-icon:co_media_kit",
-                link: "/about/media-kit",
-              },
-            ],
-          },
-        ]),
+        n = l([]),
         d = l([
           { icon: "i-icon:co-x", link: L.X },
-          { icon: "i-icon:co-discord", link: L.Discord },
-          { icon: "i-icon:co-linkin", link: L.Linkedin },
           { icon: "i-icon:co-telegram", link: L.TelegramMain },
         ]),
         k = l(!1);

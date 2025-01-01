@@ -1,12 +1,12 @@
 const e = {
-    X: "https://x.com/ChainOpera_AI",
+    X: "https://x.com/ChainWave_AI",
     Discord: "https://discord.gg/cGUTfKmeeN",
     Linkedin: "https://www.linkedin.com/company/chainopera",
-    Medium: "https://medium.com/@chainopera",
+    Medium: "https://sorojins-organization.gitbook.io/chainwave-ai",
     Docs: "https://docs.chainopera.ai/",
     Telegram: "https://t.me/contact_chainopera_ai",
     Career: "https://jobs.ashbyhq.com/Chainopera",
-    TelegramMain: "https://t.me/ChainOpera",
+    TelegramMain: "https://t.me/ChainWave_AI",
   },
   a = {
     "fedml-official": "7fdd16f8e2f9438e97d71c1cc62898ed",

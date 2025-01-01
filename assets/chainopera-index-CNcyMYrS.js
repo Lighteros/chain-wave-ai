@@ -91,49 +91,12 @@ const W = "/assets/coin-DMaGRSCL.png",
     c(
       "div",
       { class: "text-xl font-400 mb-60px", "lt-md": "max-w-full" },
-      " Complete quests, earn points, and become early members of ChainOpera AI ",
+      " Complete quests, earn points, and become early members of ChainWave AI ",
       -1
     )
   ),
   te = $(() =>
     c(
-      "div",
-      {
-        "text-2xl": "",
-        "rounded-full": "",
-        flex: "",
-        "items-center": "",
-        relative: "",
-        "overflow-hidden": "",
-        "shadow-sm": "",
-        "shadow-primary": "",
-        "bg-black": "",
-      },
-      [
-        c(
-          "div",
-          { relative: "", "px-12": "", "text-primary": "", "lt-md": "px-4" },
-          " Season One "
-        ),
-        c("a", { href: "/quest", targt: "_blank" }, [
-          c(
-            "button",
-            {
-              "bg-primary": "",
-              "text-dark": "",
-              "border-none": "",
-              "rounded-full": "",
-              "cursor-pointer": "",
-              "px-32px": "",
-              "py-2": "",
-              "lt-md": "px-4",
-              hover: "bg-primary-600 animate-none",
-            },
-            " Start Now "
-          ),
-        ]),
-      ],
-      -1
     )
   ),
   ie = { class: "px-8 z-3", flex: "~ center", "lt-md": "hidden" },
@@ -183,7 +146,7 @@ const W = "/assets/coin-DMaGRSCL.png",
                       8,
                       X
                     ),
-                    d(" ChainOpera Point System is Now Live! "),
+                    d(" ChainWavePoint System is Now Live! "),
                     Q,
                     d(" Season One: Earning the Badge "),
                     c(
@@ -269,7 +232,7 @@ const W = "/assets/coin-DMaGRSCL.png",
       const t = u([
           {
             title: "Enterprise-level Generative AI Platform",
-            text: "Enterprise-level generative AI Platform for system scalability, model peroformance,and security/privacy(ChainOpera AI Platform)",
+            text: "Enterprise-level generative AI Platform for system scalability, model peroformance,and security/privacy(ChainWave AI Platform)",
             img: "i-icon:co-backedby-1",
           },
           {
@@ -622,7 +585,7 @@ const W = "/assets/coin-DMaGRSCL.png",
               s(
                 (o(),
                 r("div", Ie, [
-                  s((o(), r("div", ke, [d(" What's ChainOpera AI? ")])), [[n]]),
+                  s((o(), r("div", ke, [d(" What's ChainWave AI? ")])), [[n]]),
                   c("div", Me, [
                     p(t)
                       ? s(
@@ -796,14 +759,6 @@ const W = "/assets/coin-DMaGRSCL.png",
     -1
   ),
   Ne = c(
-    "button",
-    {
-      class:
-        "hover:bg-primary-600 transition-all shadow-md ring-1 ring-primary-400 px-6 py-2 bg-primary text-dark cursor-pointer border-none rounded-full text-2xl backdrop-blur-sm",
-      "lt-md": "py-2 px-16 w-full",
-    },
-    " Join Ecosystem ",
-    -1
   ),
   Ke = c(
     "div",
@@ -916,7 +871,7 @@ const W = "/assets/coin-DMaGRSCL.png",
                           Be,
                           v(
                             p(O),
-                            { to: "/about/contact" },
+                            { to: "http://t.me/ChainWave_AI" },
                             { default: k(() => [Ne]), _: 1 }
                           ),
                         ])),
@@ -1251,24 +1206,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     "mb-24": "",
     "lt-md": "w-full text-xl justify-center mb-16 gap-6",
   },
-  et = c(
-    "button",
-    {
-      "px-6": "",
-      "py-2": "",
-      "bg-primary": "",
-      "text-dark": "",
-      "hover:bg-primary-400": "",
-      "ring-primary-600": "",
-      "ring-1": "",
-      "border-none": "",
-      "rounded-full": "",
-      "cursor-pointer": "",
-      "lt-md": "py-2 px-8 w-full",
-    },
-    " Platform ",
-    -1
-  ),
+  et = c(  ),
   tt = c(
     "button",
     {
@@ -1284,11 +1222,11 @@ const W = "/assets/coin-DMaGRSCL.png",
       "cursor-pointer": "",
       "lt-md": "py-2 px-8 w-full",
     },
-    " App Ecosystem ",
+    " Launch App ",
     -1
   ),
   it = {
-    href: "/quest",
+    href: "https://sorojins-organization.gitbook.io/chainwave-ai",
     targt: "_blank",
     initial: { opacity: 0, x: -50 },
     "visible-once": {
@@ -1319,7 +1257,7 @@ const W = "/assets/coin-DMaGRSCL.png",
         "backdrop-blur-sm": "",
         "lt-md": "py-2 px-16 w-full",
       },
-      " Earn the Badge ",
+      " Read Docs",
       -1
     ),
   ],
@@ -1518,7 +1456,7 @@ const W = "/assets/coin-DMaGRSCL.png",
           ),
           v(
             O,
-            { to: "/about/contact" },
+            { to: "http://t.me/ChainWave_AI" },
             {
               default: () => [
                 v(
@@ -1542,7 +1480,7 @@ const W = "/assets/coin-DMaGRSCL.png",
           r("section", $e, [
             c("div", Ve, [
               c("div", Je, [
-                s((o(), r("div", Ye, [d(" ChainOpera AI ")])), [[y]]),
+                s((o(), r("div", Ye, [d(" ChainWave AI ")])), [[y]]),
                 s((o(), r("span", Xe, [d(w(t), 1)])), [[y]]),
                 s((o(), r("span", Qe, [d(w(i), 1)])), [[y]]),
                 s(
@@ -1857,19 +1795,19 @@ const W = "/assets/coin-DMaGRSCL.png",
   Ot = c(
     "p",
     { class: "mb-12 leading-5" },
-    " ChainOpera team is developing a few flagship AI agents and applications to showcase how community-driven AI resources can drive AI content innovation and promote private data sovereignty within the protocol. The community can co-own and co-create diverse autonomous and socialized AI agents. ",
+    " ChainWave Team is developing a few flagship AI agents and applications to showcase how community-driven AI resources can drive AI content innovation and promote private data sovereignty within the protocol. The community can co-own and co-create diverse autonomous and socialized AI agents. ",
     -1
   ),
   _t = c(
     "h2",
     { class: "text-white font-bold mb-2 flex flex-col mb-4 text-2xl" },
-    [c("span", null, "ChainOpera AI Mobile App: Your AI Terminal")],
+    [c("span", null, "ChainWave AI Mobile App: Your AI Terminal")],
     -1
   ),
   Lt = c(
     "p",
     { class: "mb-4 leading-5 !font-normal" },
-    ' The ChainOpera AI Mobile App features an AI Terminal with a "Type to Earn" system that benefits humanity by allowing users to share their private data and receive rewards for LLM and GenAI model training. ',
+    ' The ChainWave AI Mobile App features an AI Terminal with a "Type to Earn" system that benefits humanity by allowing users to share their private data and receive rewards for LLM and GenAI model training. ',
     -1
   ),
   jt = {
@@ -1886,7 +1824,7 @@ const W = "/assets/coin-DMaGRSCL.png",
       "img",
       {
         src: "/resource/img/chainopera/home/why/Group-5113.png",
-        alt: "ChainOpera AI Terminal",
+        alt: "ChainWave AI Terminal",
         class: "w-full h-full",
       },
       null,
@@ -1900,7 +1838,7 @@ const W = "/assets/coin-DMaGRSCL.png",
       d(" The "),
       c("b", null, "AI Terminal"),
       d(
-        " also functions as a powerful AI agent that simplifies trading of AI coins on the ChainOpera platform and other meme coins. "
+        " also functions as a powerful AI agent that simplifies trading of AI coins on the ChainWave Platform and other meme coins. "
       ),
     ],
     -1
@@ -1951,7 +1889,7 @@ const W = "/assets/coin-DMaGRSCL.png",
       [
         c("img", {
           src: "/resource/img/chainopera/home/why/Group-5114.png",
-          alt: "ChainOpera AI Terminal",
+          alt: "ChainWave AI Terminal",
           class: "w-full h-full",
         }),
       ],
@@ -1985,7 +1923,7 @@ const W = "/assets/coin-DMaGRSCL.png",
   Nt = c(
     "h2",
     { class: "text-white text-3xl font-bold mb-2 flex flex-col mb-4" },
-    [c("span", null, 'ChainOpera AI Agent "LinkedIn"')],
+    [c("span", null, 'ChainWave AI Agent')],
     -1
   ),
   Kt = c(
@@ -2067,7 +2005,7 @@ const W = "/assets/coin-DMaGRSCL.png",
   Qt = c(
     "p",
     { class: "mb-12 leading-5 !font-normal" },
-    " The CoAI SDK combines AI and cryptocurrency capabilities. Developers can create various AI agents using CoAI and earn rewards by submitting them to the AI Agent Template Marketplace. CoAI is compatible with mainstream AI agent frameworks as well as our custom-built ChainOpera AI Agent Framework. ",
+    " The CoAI SDK combines AI and cryptocurrency capabilities. Developers can create various AI agents using CoAI and earn rewards by submitting them to the AI Agent Template Marketplace. CoAI is compatible with mainstream AI agent frameworks as well as our custom-built ChainWave AI Agent Framework. ",
     -1
   ),
   Zt = {
@@ -2191,7 +2129,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     c(
       "span",
       null,
-      "The federated AI platform, the world's first decentralized machine learning platform, enables all AI resource contributors—including data, model, and GPU providers—to participate in serving AI agents and apps while earning rewards. This platform builds on years of experience with TensoOpera.ai and FedML.ai.",
+      "The federated AI platform, the world's first decentralized machine learning platform, enables all AI resource contributors—including data, model, and GPU providers—to participate in serving AI agents and apps while earning rewards.",
       -1
     ),
   ],
@@ -2240,14 +2178,6 @@ const W = "/assets/coin-DMaGRSCL.png",
   },
   vi = { class: "flex justify-center items-center" },
   wi = c(
-    "button",
-    {
-      class:
-        "hover:bg-primary-600 transition-all shadow-md ring-1 ring-primary-400 px-6 py-2 bg-primary text-dark cursor-pointer border-none rounded-full text-2xl backdrop-blur-sm",
-      "lt-md": "py-2 px-16 w-full",
-    },
-    " Join AI Platform ",
-    -1
   ),
   Ai = {
     initial: { opacity: 0, y: 40 },
@@ -2399,7 +2329,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     class: "text-white text-3xl font-bold mb-2 flex flex-col mb-10",
   },
   Ri = [
-    c("span", null, "ChainOpera AI Chain = Proof-of-Intelligence + AI OS", -1),
+    c("span", null, "ChainWave AI Chain = Proof-of-Intelligence + AI OS", -1),
   ],
   Ui = {
     initial: { opacity: 0, y: 20 },
@@ -2460,7 +2390,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     },
     class: "text-white flex flex-col mb-4 text-2xl font-bold mt-10",
   },
-  Ji = [c("span", null, "Phase 3: ChainOpera AI Chain (Our Own L1)", -1)],
+  Ji = [c("span", null, "Phase 3: ChainWave AI Chain (Our Own L1)", -1)],
   Yi = {
     initial: { opacity: 0, y: 20 },
     "visible-once": {
@@ -2474,7 +2404,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     c(
       "span",
       null,
-      "• Replace Smart Contract with ChainOpera's consensus algorithm (proof of Intelligence)",
+      "• Replace Smart Contract with ChainWave's consensus algorithm (proof of Intelligence)",
       -1
     ),
     c(
@@ -2505,7 +2435,7 @@ const Zi = n(ut, [
           o(),
           r("section", mt, [
             c("div", bt, [
-              s((o(), r("h2", ht, [d(" Why ChainOpera AI? ")])), [[n]]),
+              s((o(), r("h2", ht, [d(" Why ChainWave AI? ")])), [[n]]),
               c("div", vt, [
                 c("div", wt, [
                   At,
@@ -2529,7 +2459,7 @@ const Zi = n(ut, [
                             r("div", St, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/terminal.png",
-                                alt: "ChainOpera AI Terminal",
+                                alt: "ChainWave AI Terminal",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2556,7 +2486,7 @@ const Zi = n(ut, [
                             r("div", qt, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5115.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2640,7 +2570,7 @@ const Zi = n(ut, [
                             r("div", hi, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5119.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2658,7 +2588,7 @@ const Zi = n(ut, [
                             r("div", Ai, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5118.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2671,7 +2601,7 @@ const Zi = n(ut, [
                             r("div", Pi, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5122.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2684,7 +2614,7 @@ const Zi = n(ut, [
                             r("div", ji, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5125.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),
@@ -2716,7 +2646,7 @@ const Zi = n(ut, [
                             r("div", Qi, [
                               v(i, {
                                 src: "/resource/img/chainopera/home/why/Group-5105.png",
-                                alt: "ChainOpera AI Galaxy",
+                                alt: "ChainWave AI Galaxy",
                                 class: "w-full h-full",
                               }),
                             ])),

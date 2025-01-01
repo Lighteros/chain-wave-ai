@@ -48,7 +48,7 @@ const w = m(
   v = m(
     "div",
     null,
-    " Want to join the AI App Ecosystem running on ChainOpera AI platform? ",
+    " Want to join the AI App Ecosystem running on ChainWave AI platform? ",
     -1
   ),
   C = m(
@@ -67,7 +67,7 @@ const w = m(
       "backdrop-blur-sm": "",
       "lt-md": "py-2 px-16 w-full",
     },
-    " Join the App Ecosystem ",
+    " Join Community",
     -1
   ),
   I = m(
@@ -187,7 +187,7 @@ const w = m(
                         v,
                         r(
                           a,
-                          { to: "/about/contact" },
+                          { to: "http://t.me/ChainWave_AI" },
                           { default: o(() => [C]), _: 1 }
                         ),
                         I,

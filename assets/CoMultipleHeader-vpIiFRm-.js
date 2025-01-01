@@ -56,7 +56,7 @@ const k = { flex: "", "items-center": "" },
     -1
   ),
   Y = { class: "flex items-center mr-16 gap-2", "lt-md": "mr-4" },
-  G = { key: 0, href: "/quest", target: "_blank" },
+  G = { key: 0, href: "/app", target: "_blank" },
   q = r({
     __name: "co-index",
     props: { dark: { type: Boolean } },
@@ -103,21 +103,22 @@ const k = { flex: "", "items-center": "" },
                     "dark",
                   ]),
                   m(R).meta.showQuest
-                    ? (l(),
-                      c("a", G, [
-                        g(
-                          a,
-                          {
-                            ring: "1 primary",
-                            type: "primary",
-                            hover: "!bg-white scale-110",
-                            text: "dark",
-                            "rounded-0": "",
-                          },
-                          { default: p(() => [f(" Quest ")]), _: 1 }
-                        ),
-                      ]))
-                    : h("", !0),
+                  ? (l(),
+                    c("a", G, [
+                      g(
+                        a,
+                        {
+                          ring: "1 primary",
+                          type: "primary",
+                          hover: "!bg-white scale-110",
+                          text: "dark",
+                          "rounded-0": "",
+                        },
+                        { default: p(() => [f(" Launch App ")]), _: 1 }
+                      ),
+                    ]))
+                  : h("", !0),
+
                   m(R).meta.hideLogin || b.value
                     ? h("", !0)
                     : (l(),

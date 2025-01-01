@@ -91,61 +91,35 @@ const f = "/resource/img/chainopera/logo-with-brand.png",
         S = "/resource/img/chainopera/home/global.png",
         U = i([
           { icon: "i-icon:co-x", link: v.X },
-          { icon: "i-icon:co-discord", link: v.Discord },
-          { icon: "i-icon:co-linkin", link: v.Linkedin },
           { icon: "i-icon:co-telegram", link: v.TelegramMain },
         ]),
         F = i([
           {
             label: "Product",
             children: [
-              { label: "Platform", link: "/prod/model" },
               { label: "App Ecosystem", link: "/app/llm" },
+              { label: "Document", link: "https://sorojins-organization.gitbook.io/chainwave-ai" },
             ],
-          },
-          {
-            label: "Resources",
-            children: [{ label: "Research", link: "/research" }],
           },
           {
             label: "About",
             children: [
               {
-                label: "Press",
-                key: "Press",
+                label: "Telegram",
+                key: "Telegram",
                 icon: "i-icon:co_press",
-                link: "/about/press",
+                link: "http://t.me/ChainWave_AI",
               },
               {
-                label: "Events",
-                key: "Events",
+                label: "Twitter",
+                key: "Twitter",
                 icon: "i-icon:co_event",
-                link: "/about/events",
-              },
-              {
-                label: "Careers",
-                key: "Careers",
-                icon: "i-icon:co-career",
-                link: v.Career,
-              },
-              {
-                label: "Team",
-                key: "Team",
-                icon: "i-icon:co_aboutus",
-                link: "/about/team",
-              },
-              {
-                label: "Contact Us",
-                key: "Contact Us",
-                icon: "i-icon:co_contact",
-                link: "/about/contact",
+                link: "http://x.com/ChainWave_AI",
               },
             ],
           },
         ]),
         M = a([
-          { label: "Privacy Policy", link: "/privacyPolicy" },
-          { label: "Terms of Service", link: "/service" },
         ]);
       return (e, l) => {
         const i = y,
