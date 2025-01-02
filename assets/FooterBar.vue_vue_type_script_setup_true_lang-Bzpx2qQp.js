@@ -98,12 +98,14 @@ const f = "/resource/img/chainopera/logo-with-brand.png",
             label: "Product",
             children: [
               { label: "App Ecosystem", link: "/app/llm" },
-              { label: "Document", link: "https://sorojins-organization.gitbook.io/chainwave-ai" },
+              { label: "Dexscreener", link: "https://dexscreener.com/ethereum/0x0123456789" },
+              { label: "Dextools", link: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000" },
             ],
           },
           {
-            label: "About",
+            label: "Contacts",
             children: [
+              { label: "Document", link: "https://sorojins-organization.gitbook.io/chainwave-ai" },
               {
                 label: "Telegram",
                 key: "Telegram",
