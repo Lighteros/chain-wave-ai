@@ -105,7 +105,7 @@ const v = "/resource/img/chainopera/logo-with-brand.png",
           {
             label: "Contacts",
             children: [
-              { label: "Document", link: "https://docs.chainwaveai.cc" },
+              { label: "Document", link: "https://sorojins-organization.gitbook.io/chainwave-ai" },
               {
                 label: "Telegram",
                 key: "Telegram",

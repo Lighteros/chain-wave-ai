@@ -1227,7 +1227,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     -1
   ),
   it = {
-    href: "https://docs.chainwaveai.cc",
+    href: "https://sorojins-organization.gitbook.io/chainwave-ai",
     targt: "_blank",
     initial: { opacity: 0, x: -50 },
     "visible-once": {
@@ -1796,7 +1796,7 @@ const W = "/assets/coin-DMaGRSCL.png",
   Ot = c(
     "p",
     { class: "mb-12 leading-5" },
-    " ChainWave Team is developing a few flagship AI agents and applications to showcase how community-driven AI resources can drive AI content innovation and promote private data sovereignty within the protocol. The community can co-own and co-create diverse autonomous and socialized AI agents. ",
+    " ChainOpera Team is developing a few flagship AI agents and applications to showcase how community-driven AI resources can drive AI content innovation and promote private data sovereignty within the protocol. The community can co-own and co-create diverse autonomous and socialized AI agents. ",
     -1
   ),
   _t = c(
@@ -1839,7 +1839,7 @@ const W = "/assets/coin-DMaGRSCL.png",
       d(" The "),
       c("b", null, "AI Terminal"),
       d(
-        " also functions as a powerful AI agent that simplifies trading of AI coins on the ChainWave Platform and other meme coins. "
+        " also functions as a powerful AI agent that simplifies trading of AI coins on the ChainOpera Platform and other meme coins. "
       ),
     ],
     -1
@@ -2405,7 +2405,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     c(
       "span",
       null,
-      "• Replace Smart Contract with ChainWave's consensus algorithm (proof of Intelligence)",
+      "• Replace Smart Contract with ChainOpera's consensus algorithm (proof of Intelligence)",
       -1
     ),
     c(

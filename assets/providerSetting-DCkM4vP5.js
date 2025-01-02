@@ -2,7 +2,7 @@ const e = {
     X: "https://x.com/ChainWave_AI",
     Discord: "https://discord.gg/cGUTfKmeeN",
     Linkedin: "https://www.linkedin.com/company/chainopera",
-    Medium: "https://docs.chainwaveai.cc",
+    Medium: "https://sorojins-organization.gitbook.io/chainwave-ai",
     Docs: "https://docs.chainopera.ai/",
     Telegram: "https://t.me/contact_chainopera_ai",
     Career: "https://jobs.ashbyhq.com/Chainopera",
