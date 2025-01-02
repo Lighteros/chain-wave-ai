@@ -1227,7 +1227,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     -1
   ),
   it = {
-    href: "https://sorojins-organization.gitbook.io/chainwave-ai",
+    href: "https://docs.chainwaveai.cc",
     targt: "_blank",
     initial: { opacity: 0, x: -50 },
     "visible-once": {
