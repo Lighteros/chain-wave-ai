@@ -1227,7 +1227,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     -1
   ),
   it = {
-    href: "https://docs.chainwaveai.cc",
+    href: "https://docs.chainwaveai.com",
     targt: "_blank",
     initial: { opacity: 0, x: -50 },
     "visible-once": {
@@ -1511,35 +1511,6 @@ const W = "/assets/coin-DMaGRSCL.png",
                           },
                         },
                         { default: k(() => [et]), _: 1 },
-                        8,
-                        ["to"]
-                      )),
-                      [[y]]
-                    ),
-                    s(
-                      (o(),
-                      C(
-                        p(O),
-                        {
-                          to: {
-                            name: ("routerNames" in e ? e.routerNames : p(j))
-                              .CO_APP_ROOT,
-                          },
-                          "lt-md": "translate-x-0",
-                          initial: { opacity: 0, x: 50 },
-                          "visible-once": {
-                            opacity: 1,
-                            x: 0,
-                            transition: {
-                              type: "spring",
-                              stiffness: 50,
-                              damping: 15,
-                              duration: 800,
-                              delay: 200,
-                            },
-                          },
-                        },
-                        { default: k(() => [tt]), _: 1 },
                         8,
                         ["to"]
                       )),

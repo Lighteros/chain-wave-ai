@@ -1226,7 +1226,7 @@ const W = "/assets/coin-DMaGRSCL.png",
     -1
   ),
   it = {
-    href: "https://docs.chainwaveai.cc",
+    href: "https://docs.chainwaveai.com",
     targt: "_blank",
     initial: { opacity: 0, x: -50 },
     "visible-once": {
