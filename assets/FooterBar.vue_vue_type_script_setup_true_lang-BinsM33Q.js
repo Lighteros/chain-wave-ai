@@ -98,8 +98,8 @@ const v = "/resource/img/chainopera/logo-with-brand.png",
             label: "Product",
             children: [
               { label: "App Ecosystem", link: "/app/llm" },
-              { label: "Dexscreener", link: "https://dexscreener.com/ethereum/0x0123456789" },
-              { label: "Dextools", link: "https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000" },
+              { label: "Dexscreener", link: "https://dexscreener.com/ethereum/0x1d653df07898fafb7210ca39c3c42be0d7b531cc" },
+              { label: "Dextools", link: "https://www.dextools.io/app/en/token/chainwaveai111?t=1735811045232" },
             ],
           },
           {
